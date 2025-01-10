@@ -6,7 +6,7 @@ public class Selfintroduction {
 		// 氏名
 		String name = "玉井　優華";
 		// 年齢
-		int age = 27;
+		int age = 28;
 		// 趣味
 		String hobby = "推し活";
 		/*
