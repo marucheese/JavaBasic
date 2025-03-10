@@ -110,11 +110,6 @@ public class Qes1_13 {
 			System.out.println(age2); //年齢を出力
 			System.out.println(height2); //身長を出力
 			System.out.println(age2 >= 25 || height2 >= 160); // 年齢が25歳以上、または身長が160以上であればtrueを出力
-			
-		
-		
-		
-			
 		}
 		
 	}
