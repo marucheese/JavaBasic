@@ -4,53 +4,53 @@ public class Qes1_13 {
 	
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
-		byte a; //バイト型をローカル変数aとして宣言
-		short b; //短整数型をローカル変数bとして宣言
-		int c; //整数型をローカル変数cとして宣言
-		long d; //長整数型をローカル変数dとして宣言
-		float e; //単精度浮動小数点数型をローカル変数eとして宣言
-		double f; //倍精度浮動小数点数型をローカル変数fとして宣言
-		char g; //文字型をローカル変数gとして宣言
-		String h; //文字列型をローカル変数hとして宣言
-		boolean i; //ブーリアン型をローカル変数iとして宣言
+		byte b; //バイト型をローカル変数bとして宣言
+		short sh; //短整数型をローカル変数shとして宣言
+		int num; //整数型をローカル変数numとして宣言
+		long lon; //長整数型をローカル変数lonとして宣言
+		float f; //単精度浮動小数点数型をローカル変数fとして宣言
+		double d; //倍精度浮動小数点数型をローカル変数dとして宣言
+		char c; //文字型をローカル変数cとして宣言
+		String str; //文字列型をローカル変数strとして宣言
+		boolean boo; //ブーリアン型をローカル変数booとして宣言
 		
 		
-		 a = 0; //ローカル変数aを初期値-128を代入して初期化
-		 b = 0; //ローカル変数bを初期値-32768を代入して初期化
-		 c = 0; //ローカル変数cを初期値0を代入して初期化
-		 d = 0L; //ローカル変数dを初期値9を代入して初期化
-		 e = 0.0f; //ローカル変数eを初期値3.14fを代入して初期化
-		 f = 0.0d; //ローカル変数fを初期値2.718を代入して初期化
-		 g = '\u0000'; //ローカル変数gを初期値あを代入して初期化
-		 h = "あいう"; //ローカル変数hを初期値あいうを代入して初期化
-		 i = false; //ローカル変数iを初期値falseを代入して初期化
+		 b = 0; //ローカル変数bを初期値0を代入して初期化
+		 sh = 0; //ローカル変数shを初期値0を代入して初期化
+		 num = 0; //ローカル変数numを初期値0を代入して初期化
+		 lon = 0L; //ローカル変数lonを初期値0Lを代入して初期化
+		 f = 0.0f; //ローカル変数fを初期値0.0fを代入して初期化
+		 d = 0.0d; //ローカル変数dを初期値0.0dを代入して初期化
+		 c = '\u0000'; //ローカル変数cを初期値\u0000を代入して初期化
+		 str = null; //ローカル変数strを初期値nullを代入して初期化
+		 boo = false; //ローカル変数booを初期値falseを代入して初期化
 		
 		
 		
-			a = 10; //バイト型の変数aに10を代入
-			b = 100; //短整数型の変数bに100を代入
-			c = 1000; //整数型の変数cに1000を代入
-			d = 10000; //長整数型の変数dに10000を代入
-			e = 9.5f; //単精度浮動小数点数の変数eに9.5を代入
-			f = 10.5; //倍精度浮動小数点数の変数fに10.5を代入
-			g = 'a'; //文字型の変数gにaを代入
-			h = "ハロー"; //文字列型の変数hにハローを代入
-			i = true; //ブーリアン型の変数iにtrueを代入
+			b = 10; //バイト型の変数bに10を代入
+			sh = 100; //短整数型の変数shに100を代入
+			num = 1000; //整数型の変数numに1000を代入
+			lon = 10000; //長整数型の変数lonに10000を代入
+			f = 9.5f; //単精度浮動小数点数の変数fに9.5を代入
+			d = 10.5; //倍精度浮動小数点数の変数dに10.5を代入
+			c = 'a'; //文字型の変数cにaを代入
+			str = "ハロー"; //文字列型の変数strにハローを代入
+			boo = true; //ブーリアン型の変数booにtrueを代入
 			
-			System.out.println(a + b + c + d); //11110と出力
-			System.out.println(e + f); //20と出力
-			System.out.println(g + h + i); //aハローtrueと出力
-			System.out.println(a + b+ c + d + e + f); //11130と出力
-			System.out.println(a * b * c * d); //10000000000と出力
-			System.out.println(f / b); //0.105と出力
-			System.out.println(a - b); //-90と出力
+			System.out.println(b + sh + num + lon); //11110と出力
+			System.out.println(f + d); //20と出力
+			System.out.println(c + str + boo); //aハローtrueと出力
+			System.out.println(b + sh + num + lon + f + d); //11130と出力
+			System.out.println(b * sh * num * lon); //10000000000と出力
+			System.out.println(d / sh); //0.105と出力
+			System.out.println(b - sh); //-90と出力
 		
 		
 		
-			String num = "20"; // 文字列型numに20を代入して初期化
+			String num0 = "20"; // 文字列型numに20を代入して初期化
 			int num1 = 23; // 整数型num1に23を代入して初期化
 			String num2 = String.valueOf(num1); // num1を文字列型に変換
-			System.out.println("ハローJAVA" + num + num2); // ハローJAVA2023と出力
+			System.out.println("ハローJAVA" + num0 + num2); // ハローJAVA2023と出力
 		
 		
 		
