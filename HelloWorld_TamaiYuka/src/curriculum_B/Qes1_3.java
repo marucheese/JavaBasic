@@ -7,11 +7,11 @@ public class Qes1_3 {
 	public static void main(String[] args) {
 	Scanner scanner = new Scanner(System.in); //入力処理
 	System.out.print("名前"); //名前と出力
-	String name = scanner.next(); //文字列の入力の受け取り
+	String name = scanner.nextLine(); //文字列の入力の受け取り
 	System.out.println(name); //nameを出力
 	
 	while(true) {
-		if(name == null || name.length() == 0) { //「ユーザー名の文字数が0文字以下もしくはnullの場合」という条件
+		if(name == null || name.trim().isEmpty()) { //「ユーザー名の文字数が0文字以下もしくはnullの場合」という条件
 			System.out.println("名前を入力してください"); //「名前を入力してください」と出力する処理
 		} else if(name.length() > 10) { //「ユーザー名の文字数が10文字より大きい場合」という条件
 			System.out.println("名前を10文字以内にしてください"); //「名前を10文字以内にしてください」と出力する処理
