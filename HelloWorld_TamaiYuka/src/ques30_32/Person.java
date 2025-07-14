@@ -21,7 +21,7 @@ public class Person {
 	
 	//問題８・９ 自己紹介を表示するメソッド
 	double bmi() {
-		return weight/(height*height);
+		return Math.floor(weight/(height*height));
 	}
 	
 	void print() {
