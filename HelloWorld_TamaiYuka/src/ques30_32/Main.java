@@ -7,6 +7,7 @@ class Main {
 		Person person2 = new Person("山田花子", 22, 1.5, 40);
 		person2.print();
 		
+		//問題6 クラスメソッドを呼び出して人数を出力
 		Person.printCount();
 	
 	}
